@@ -39,7 +39,6 @@ public class RozbicieLiczb {
                 }
             }
 
-
             System.out.println("\nSuma cyfr Twojej liczby to: " + suma);
             System.out.println("Suma cyfr parzystych Twojej liczny to: " + sumaParzystych +
                     "\n" + "Suma cyfr nieparzystych Twojej liczby to: " + sumaNieparzystych);
