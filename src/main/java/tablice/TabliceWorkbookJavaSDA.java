@@ -86,9 +86,33 @@ public class TabliceWorkbookJavaSDA {
         }
         System.out.println("Suma wszystkch cyfr w tablicy: " + sum);
 
+        System.out.println();
+
+        System.out.println("sumę cyfr większych lub równych 4");
+        int sumFour = 0;
+        for (int fourNumber : integers) {
+            if (fourNumber >= 4) {
+                sumFour += fourNumber;
+            }
+        }
+        System.out.println("Suma tych cyfr to; " + sumFour);
+
+        System.out.println();
+
+        System.out.println("najmniejszą i największą cyfrę");
+        int max = integers[0];
+        int min = integers[0];
+        for (int i = 0; i < integers.length; i++) {
+            if (integers[i] > max) {
+                max = integers[i];
+            }
+            if (integers[i] < min) {
+                min = integers[i];
+            }
+        }
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
     }
-
-
 }
 
 //
